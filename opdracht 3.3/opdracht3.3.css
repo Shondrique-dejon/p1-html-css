@@ -1,0 +1,76 @@
+.tekst
+
+{
+font-size: 24px;  
+font-family: Verdana;
+list-style-type: circle;
+
+}
+
+.tekst2
+
+{
+font-size: 24px;  
+font-family: Verdana;
+}
+html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: Verdana;
+    background-image: url(background4.jpg)
+  }
+  
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #00a8c7;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav img {
+    width: 5vw;
+  }
+  .tekst {
+    
+    display: flexbox;
+    list-style-type: none;
+    border-bottom: 5px solid   black;
+    
+  }
+  .tekst2 {
+    display: inline;
+    align-items: center;
+    display: flexbox;
+    list-style-type: none;  
+    text-align: center;
+  }
+.name {
+    color:black;
+    text-decoration:none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: large;
+    text-shadow: -2px 1px;
+    padding: 150px;
+    border-bottom: 5px solid   black;
+}

@@ -1,0 +1,13 @@
+.nav-area {
+  float: right;
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+  margin: 0 10px;
+}
+head ul li {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
