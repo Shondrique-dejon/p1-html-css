@@ -10,7 +10,7 @@
 <body>
     <div>
         <h3> Boekingsformulier</h3>
-
+      <div class="form">
         <form action="/action_page.php">
           <label for="fname">Voornaam</label>
           <input type="text" id="fname" name="voornaam" placeholder="Jouw voornaam">
@@ -29,11 +29,11 @@
           <br>
           <br>
           <label for="E-mail">E-mail</label>
-          <input type="email" id="email" name="email" placeholder="Jouw email.">
+          <input type="text" id="email" name="E-mail" placeholder="Jouw email.">
 <br>
 <br>
           <label for="lname">Adres</label>
-          <input type="text" id="lname" name="Adres" placeholder="Jouw Adres">
+          <input type="text" id="Adres" name="Adres" placeholder="Jouw Adres">
 
           <label for="lname">Postcode</label>
           <input type="text" id="lname" name="Postcode" placeholder="Jouw Postcode">
@@ -47,8 +47,8 @@
 
 <br>
 <br>
-          <label for="lname">Datum van vertrek/terugkomst (erbij)</label>
-          <input type="datetime" id="lname" name="Datum van vertrek/terugkomst (erbij)" placeholder="Datum van vertrek/terugkomst (erbij)">
+          <label for="date">Datum van vertrek/terugkomst (erbij)</label>
+          <input type="date" id="date" name="Datum van vertrek/terugkomst (erbij)" placeholder="Datum van vertrek/terugkomst (erbij)">
 <br>
 <br>
           <label for="number">Reisgenoten</label>
@@ -69,6 +69,7 @@
           <input type="password" id="password" pasword="" placeholder="password">
    <br>     
           <input type="submit" value="Submit">
+        </div>
       
 </body>
 </html>

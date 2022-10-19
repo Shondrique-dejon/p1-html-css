@@ -27,3 +27,23 @@ input[type=text], select {
   body {
     background-image: url(background4.jpg);
   }
+  h3 {
+    text-align: center;
+    font-weight:bold;
+    font-size:30px;
+  }
+  form {
+    color:black;
+    font-weight: bold;
+  }
+  .form {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 30px;
+    padding-bottom: 300px;
+    margin: 50px;
+    border-radius: 35px;
+    background-color: #f2f2f2;
+    padding: 30px;
+  }
+

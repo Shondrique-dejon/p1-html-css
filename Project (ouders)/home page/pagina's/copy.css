@@ -1,14 +1,14 @@
 #logo{ 
+     display: flex;
 	 position:fixed;
-	 top: -30px; 
-	 left:0;
-      right: auto;
-      background-color:white;
-      padding-left: -20px;
-      padding-right:-20px;
-      margin: 25px;
-      left: 2;
+	 top: -1px; 
+      left: 0;
+      float:left;
+      margin: 5px;
 } 
+
+/* body */
+
 body {
       font-family: "Goldman", cursive;
       text-align:center;
@@ -16,45 +16,56 @@ body {
       min-height: 100vh;
       width: 100vw;
       overflow:hidden;
-} 
-nav img {
-      float:left;
-      width: 30vw;
-      position: relative;
-      min-height: 29vh;
 }  
-ul li a:hover {
-      background-color:lightgreen;
-      color:00;
-}
-ul {
-     float:right;
-     list-style-type:none;
-}
-ul li {
-     display: inline-block;
-}
-ul li a {
-     text-decoration:none;
-     color: black;
-     padding: 5px 20px;
-     border: 1px solid transparent black;
-}
-.active {
-     background-color: #04AA6D;
-}
+
+/* title */
+
 .title {
      position: absolute;
      top:50%;
      left:50%;
      transform: translate(-50%,-50%);
      background-blend-mode:normal;
+     text-transform: uppercase;
+} 
+
+/* navigatie-balk  
+ 
+*/
+.box {
+     display: flex;
+     justify-content: space-around;
+     flex-direction: row;
+     padding: 15px;
+     margin:15px;
 }
-input {
-     float:right;
-     background-color:gray;
+nav {
+     align-items: center;
+     padding-left: 15%;
+     display: flex;
+} 
+nav a {
+     text-decoration: none;
+     padding-right: 50px;
+     padding-left: 50px;
+     padding-bottom: 5px;
+     padding-top: 5px;
+} 
+nav a:hover {
+     background-color: green;
 }
+nav img {
+     float:left;
+     width: 22vw;
+     position: relative;
+     min-height: 22vh;
+     
+}  
+
+/* footer */
+
 footer {  
-     padding-left: 300px;
-     padding-bottom : 200px;
+     margin: 600px;
+     background-color: white;
+     
 }
